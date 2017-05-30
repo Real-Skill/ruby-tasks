@@ -1,0 +1,7 @@
+db/*.sqlite3
+target
+log/*.log
+
+.idea
+*.iml
+
