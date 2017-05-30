@@ -188,12 +188,10 @@ Tests are not verifying exact messages for errors. They rather verify required e
 
 ### Verify your solution
 
-Migrate database:
-`bundle exec rake db:migrate`
+Install dependencies:
 
-Prepare test database: `bundle exec rake db:test:prepare`
+    bundle install
 
 Execute test suite and verify your solution:
- `bundle exec rspec`
 
-
+    rake verify
