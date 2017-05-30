@@ -78,6 +78,6 @@ Requirements:
 
 To run tests execute
 
-    bundle exec rspec spec
+    rake verify
 
 Good luck!
