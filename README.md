@@ -29,6 +29,6 @@ It should raise exception when not matching array sizes are provided
 
 To run tests execute
 
-    bundle exec rspec spec
+    rake verify
 
 Good luck!
