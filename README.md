@@ -4,19 +4,19 @@
 
 Create a method to accept string as an argument, and return a string of length 26.
 
-The objective is to detect if letters of the english alphabet (upper or lower case) are present anywhere in the string, and to set each of the 26 characters corresponding to each letter to either '1' if present, '0' if not.
+The objective is to detect if the letters of the English alphabet (upper or lower case) are present anywhere in the string, and to set each of the 26 characters corresponding to each letter to either '1' if present or '0' if not.
 
-So if an 'a' or an 'A' appears anywhere in the argument string (any number of times), set the first character of the returned string to '1' otherwise to '0', if 'b' or 'B' the the second to '1', and so on for the rest of the alphabet.
+So if an 'a' or an 'A' appears anywhere in the argument string (any number of times), set the first character of the returned string to '1' otherwise to '0', if 'b' or 'B' appear, set the second to '1', and so on for the rest of the alphabet.
 
 So the returned string consists only of '1's and '0's.
 
 `letter_occurance_check("abcz") # => "11100000000000000000000001"`
 
-when nil or blank string given it should return string with all 0
+When nil or blank string is given it should return string with all 0.
 
 ### Exercise 2
 
-Create a **sum_args** method which sums all given arguments
+Create a **sum_args** method which sums all the given arguments
 
 ### Exercise 3
 
@@ -46,7 +46,7 @@ image_data:
 
 ```
 
-Result:
+The result:
 
 ```
 [
@@ -74,7 +74,7 @@ Requirements:
 
     bundle install
 
-### Run tests
+### To run tests
 
 To run tests execute
 
