@@ -2,18 +2,18 @@
 
 ### Exercise 1
 
-Implement a method which validates if email given as string has a valid format
+Implement a method which validates if the email given as a string has a valid format
 
 ### Exercise 2
 
-Implement a method which checks if year is a leap year(has 366 days)
+Implement a method which checks if the year is a leap year(has 366 days)
 
 ### Exercise 3
 
 Implement a method which would accept array of keys and array of values
-and return a hash which would have for a first key a first value, then for the second key a second value
+and return a hash which would have for the first key the first value, then for the second key the second value, 
 hashify([:a, :b], ["a", "b"]) => { :a => "a", :b => "b" }
-It should raise exception when not matching array sizes are provided
+It should raise exception when sizes not matching the array are provided.
 
 ### Exercise 4
 
@@ -25,7 +25,7 @@ It should raise exception when not matching array sizes are provided
 
     bundle install
 
-### Run tests
+### To run tests
 
 To run tests execute
 
